@@ -18,5 +18,23 @@
 }
 
 #membership {
-    margin-top: -51px;
+    margin-top: -41px;
 }
+
+.cta-bg-img {
+    background-image: url('/img/cta-bg-img.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.dark-link {
+    color: #212529;
+}
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */

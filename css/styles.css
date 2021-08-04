@@ -1,3 +1,17 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
 .main-bg-img {
     position: absolute;
     top: 0;
@@ -15,7 +29,40 @@
     background-image: url('/img/contact-bg-img.jpg');
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.desk-bg-img {
+    position: absolute;
+    top: 0;
+    background-image: url('/img/desk-bg-img.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.office-bg-img {
+    position: absolute;
+    top: 0;
+    background-image: url('/img/office-bg-img.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.open-bg-img {
+    position: absolute;
+    top: 0;
+    background-image: url('/img/open-seating-bg-img.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: auto;
     width: 100%;
     z-index: -1;
 }

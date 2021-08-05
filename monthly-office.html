@@ -17,93 +17,102 @@
 
     <title>Opus Coworking Space</title>
 </head>
+
 <body class="main-bg-color">
 
-    <!-- Header with dropdowns and social media -->
-    <header>
-        <nav class="navbar navbar-expand-md bg-transparent navbar-dark sticky-top">            
-            <div class="container-fluid">
-                <a href="/index.html" class="navbar-brand"><img src="/img/opus-logo-svg.svg" alt="opus logo" width="100" height="75" class="main-color"></a>        
-                
-                <!-- Navbar menu toggle button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarNavDropdown">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <!-- Navbar menu -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <div class="navbar-nav">
-                        
-                        <!-- Membership dropdown -->
-                        <div class="nav-item dropdown">                            
-                            <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarMembershipDropdownLink" type="button" data-toggle="dropdown">Monthly Membership</button>
-                            <div class="dropdown-menu bg-dark">
-                                <a href="#" class="dropdown-item light-link">Open Seating</a>
-                                <a href="#" class="dropdown-item light-link">Dedicated Desk</a>
-                                <a href="#" class="dropdown-item light-link">Private Office</a>
-                            </div>
-                        </div>
+    <!-- Main background image -->
+    <div class="office-bg-img bg-img">
 
-                        <!-- Meeting Rooms dropdown -->
-                        <div class="nav-item dropdown">
-                            <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarMeetingDropdownLink" type="button" data-toggle="dropdown">Meeting Rooms</button>
-                            <div class="dropdown-menu bg-dark">
-                                <a href="/index.html#meetingRooms" class="dropdown-item light-link">Book a Meeting Room</a>
+        <!-- Header with dropdowns and social media -->
+        <header>
+            <nav class="navbar navbar-expand-md bg-transparent navbar-dark sticky-top">            
+                <div class="container-fluid">
+                    <a href="/index.html" class="navbar-brand"><img src="/img/opus-logo-svg.svg" alt="opus logo" width="100" height="75" class="main-color"></a>        
+                    
+                    <!-- Navbar menu toggle button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Navbar menu -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <div class="navbar-nav d-flex flex-wrap justify-content-end">
+                            
+                            <!-- Membership dropdown -->
+                            <div class="nav-item dropdown">                            
+                                <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarMembershipDropdownLink" type="button" data-toggle="dropdown">Monthly Membership</button>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="/monthly-open-seating.html" class="dropdown-item light-link">Open Seating</a>
+                                    <a href="/monthly-desk.html" class="dropdown-item light-link">Dedicated Desk</a>
+                                    <a href="/monthly-office.html" class="dropdown-item light-link">Private Office</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Day Pass dropdown -->
-                        <div class="nav-item dropdown">
-                            <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarDropInDropdownLink" type="button" data-toggle="dropdown">Drop-In</button>
-                            <div class="dropdown-menu bg-dark">
-                                <a href="#" class="dropdown-item light-link">1-Day Pass</a>
-                                <a href="#" class="dropdown-item light-link">5-Day Pass</a>
+                            <!-- Meeting Rooms dropdown -->
+                            <div class="nav-item dropdown">
+                                <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarMeetingDropdownLink" type="button" data-toggle="dropdown">Meeting Rooms</button>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="/index.html#meetingRooms" class="dropdown-item light-link">Book a Meeting Room</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- About Us dropdown -->
-                        <div class="nav-item dropdown">
-                            <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarAboutDropdownLink" type="button" data-toggle="dropdown">About</button>
-                            <div class="dropdown-menu bg-dark">
-                                <a href="/tour.html" class="dropdown-item light-link">Book A Tour</a>
-                                <a href="/contact-us.html" class="dropdown-item light-link">Contact Us</a>
+                            <!-- Day Pass dropdown -->
+                            <div class="nav-item dropdown">
+                                <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarDropInDropdownLink" type="button" data-toggle="dropdown">Drop-In</button>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="#" class="dropdown-item light-link">1-Day Pass</a>
+                                    <a href="#" class="dropdown-item light-link">5-Day Pass</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Social Media Icons -->
-                        <div class="nav-item d-flex mr-0 align-items-center">
-                            <a role="button" href="instagram.com" class="nav-link btn btn-social-icon btn-instagram m-1"><i class="fa fa-instagram fa-lg"></i></a>
-                            <a role="button" href="facebook.com" class="nav-link btn btn-social-icon btn-facebook m-1"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a role="button" href="twitter.com" class="nav-link btn btn-social-icon btn-twitter m-1"><i class="fa fa-twitter fa-lg"></i></a>
+                            <!-- About Us dropdown -->
+                            <div class="nav-item dropdown">
+                                <button href="#" class="nav-link dropdown-toggle btn btn-lg" id="navbarAboutDropdownLink" type="button" data-toggle="dropdown">About</button>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="/tour.html" class="dropdown-item light-link">Book A Tour</a>
+                                    <a href="/contact-us.html" class="dropdown-item light-link">Contact Us</a>
+                                </div>
+                            </div>
+
+                            <!-- Social Media Icons -->
+                            <div class="nav-item d-flex mr-0 align-items-center">
+                                <a role="button" href="instagram.com" class="nav-link btn btn-social-icon btn-instagram m-1"><i class="fa fa-instagram fa-lg"></i></a>
+                                <a role="button" href="facebook.com" class="nav-link btn btn-social-icon btn-facebook m-1"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a role="button" href="twitter.com" class="nav-link btn btn-social-icon btn-twitter m-1"><i class="fa fa-twitter fa-lg"></i></a>
+                            </div>
                         </div>
                     </div>
+                </div>                
+            </nav>
+        </header>
+
+        <div class="container-fluid text-white">
+            <div class="row vh-100">
+                <div class="col-sm-8 my-auto ml-5 big-text">
+                    <p>
+                        A private office provides you with a little piece of Opus, just for you. No need to worry about carrying your laptop back and forth; we include a desk, a locking cabinet and ergonomic chair, as well as branded signage for your door to distinguish your company as a member of Opus.
+                    </p>
+                    <button href="#" class="btn btn-lg btn-outline-warning text-white" type="button">Sign Me Up!</button>
                 </div>
-            </div>                
-        </nav>
-    </header>
-
-    <!-- Main background image -->
-    <div class="office-bg-img"></div>
-
-    <div class="container-fluid">
-        
+            </div>
+        </div>
     </div>
-    
+
     <footer class="overflow-hidden">
         <div class="container-fluid">
-            <div class="row d-flex flex-column my-4">
-                <div class="col m-4">
+            <div class="row d-flex flex-column mb-3">
+                <div class="col d-flex justify-content-between align-items-center m-4">
                     <a href="/index.html"><img class="img-fluid" src="/img/opus-logo-svg.svg" alt="opus logo" width="150"></a>
-                </div>
                 
-                <div class="ml-4">
-                    <a role="button" href="instagram.com"><i class="fa fa-instagram fa-3x mx-3 dark-link"></i></a>
-                    <a role="button" href="facebook.com"><i class="fa fa-facebook fa-3x mx-3 dark-link"></i></a>
-                    <a role="button" href="twitter.com"><i class="fa fa-twitter fa-3x mx-3 dark-link"></i></a>
+                    <div class="mr-4">
+                        <a role="button" href="instagram.com"><i class="fa fa-instagram fa-3x mx-3 dark-link"></i></a>
+                        <a role="button" href="facebook.com"><i class="fa fa-facebook fa-3x mx-3 dark-link"></i></a>
+                        <a role="button" href="twitter.com"><i class="fa fa-twitter fa-3x mx-3 dark-link"></i></a>
+                    </div>
                 </div>
 
-                <div class="col ml-4 mt-3">
-                    <span>Copyright &#169; 2021 Opus Coworking, LLC</span>
+                <div class="col ml-4">
+                    <span>Copyright &#169; 2021 Opus Coworking, LLC.</span>
                     <span>All rights reserved</span>
                 </div>
                 
@@ -113,4 +122,16 @@
             </div>
         </div>
     </footer>
+
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/opus-scheduling', text: 'Book A Tour!', color: '#f2c740', textColor: '#ffffff', branding: false }); }</script>
+    <!-- Calendly badge widget end -->
+
+    <!-- jquery.js must come first, then popper.js, then the Bootstrap JavaScript plugins -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>

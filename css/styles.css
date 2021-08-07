@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,8 +41,16 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('/img/open-seating-bg-img.jpg');
 }
 
-.main-color {
+.tour-bg-img {
+    background-image:  url('/img/tour-bg-img.jpg');
+}
+
+.logo-main-color {
     filter: invert(98%) sepia(93%) saturate(7484%) hue-rotate(323deg) brightness(100%) contrast(90%);
+}
+
+.footer-logo-color {
+    filter: invert(36%) sepia(40%) saturate(673%) hue-rotate(167deg) brightness(98%) contrast(100%);
 }
 
 .cta-bg-img {
@@ -56,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dark-link {
-    color: #212529;
+    color: #326A9D;
 }
 
 .light-link {
@@ -67,7 +76,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 
-footer, .main-bg-color {
+.btn-outline-blue {
+    color: #326A9D;
+    border-color: #326A9D;
+}
+
+.btn-outline-blue:hover {
+    color: white;
+    background-color: #326A9D;
+}
+
+.quaternary-bg-color {
+    background-color: #7AA5CC;
+}
+
+.tertiary-bg-color {
+    background-color: #FFDA66;
+}
+
+.secondary-bg-color {
+    background-color: #326A9D;
+}
+
+.main-bg-color {
     background-color: #FFE490;
 }
 
